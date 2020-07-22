@@ -52,8 +52,9 @@ body {
 .artist {
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 30px;
     padding: 20px;
+    flex-wrap: wrap;
 
 }
 
@@ -69,7 +70,7 @@ body {
 
 .artistinfo2 {
 
-    font-size: 2em;
+    font-size: 1.5em;
     width: 75%;
     margin: auto;
 
@@ -103,6 +104,7 @@ body {
 
 footer {
     text-align: center;
+    margin-top: 3em;
 }
 
 th, td {
@@ -158,4 +160,25 @@ th, td {
 
 .userinfo table {
     margin: auto;
+}
+
+.cards {
+
+    text-align: center;
+    border: 5px solid red;
+    padding:1em;
+    font-size: 1.5em;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .artist {
+        width:90%;
+    }
+    .artistinfo {
+        width: 90%;
+    }
+
 }
